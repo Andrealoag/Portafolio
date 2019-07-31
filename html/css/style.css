@@ -81,7 +81,16 @@ h6 {
 }
 p {
 	font-family: 'Montserrat', sans-serif;
-	color: #b2b1b8;
+	color: #616064;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+}
+
+p1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
 	font-size: 18px;
 	letter-spacing: 0.5px;
 	line-height: 30px;
@@ -266,6 +275,8 @@ section {
 	font-weight: bold;
 	padding: 15px 50px;
 	text-transform: uppercase;
+	background: #fe6192;
+	color: #fff;
 }
 .btn-large:hover {
 	background: #fe6192;

@@ -54,7 +54,7 @@ body {
 /*=======================================================
       HEADINGS
 ========================================================*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 	font-weight: normal;
 	color: #333333;
 	font-family: 'Montserrat', sans-serif;
@@ -72,7 +72,12 @@ h3 {
 }
 h4 {
 	font-size: 30px;
+	font-weight: normal;
+	color: #020202;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
+
 h5 {
 	font-size: 26px;
 }
@@ -96,6 +101,36 @@ p1 {
 	line-height: 30px;
 	text-rendering: optimizeLegibility;
 }
+
+p2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+
+}
+
+p3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+
+}
+
+p5 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+	
+}
 a {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -104,6 +139,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 	font-family: 'Montserrat', sans-serif;
+	
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -1056,11 +1092,12 @@ header.header-3d{
 }
 .hello h4 {
 	line-height: 52px;
-	color: #b2b1b8;
-	font-weight: normal;
+	color: #ffffff;
+	font-weight: bold;
 	margin: 0px;
 	margin-bottom: 50px;
 	margin-top: 100px;
+	margin-left: 80px;
 }
 .hello .hello-img {
 	margin-left: -100px;
@@ -1070,7 +1107,8 @@ header.header-3d{
 	position: relative;
 }
 .hello .test-info {
-	padding-right: 100px;
+	padding-right: 50px;
+	padding-left: 80px;
 }
 .hello .test-info .btn-flat {
 	float: right;
@@ -3529,7 +3567,7 @@ header.header-3d{
 	width: 100%;
 }
 .home-2 .hello h4 {
-	color: #232227;
+	color: #4ed3eb;
 }
 .home-2 .hello .test-info .btn-flat {
 	margin-top: 50px;
@@ -3537,9 +3575,9 @@ header.header-3d{
 	border-bottom: 2px solid #fff;
 }
 .home-2 .btn-large {
-	color: #4ed3eb;
+
 	border-radius: 40px;
-	border: 3px solid #4ed3eb;
+	
 }
 .home-2 .btn-large:hover {
 	background: #4ed3eb;
